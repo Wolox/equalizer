@@ -31,7 +31,7 @@ import 'wolox-equalizer/equalizer.scss';
 
 ## Inital color value
 
-1- All texts use <span style="background: #717171; color: #FFF; font-weight: bold; padding: 0 2px;">#717171</span> color by default.
+1- All texts use **#717171** color by default.
 
 
 ## Contributing
