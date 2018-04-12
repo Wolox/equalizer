@@ -4,7 +4,8 @@
   "description": "Wolox scss bootstrap equalizer.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run sass-lint",
+    "sass-lint": "./node_modules/.bin/sass-lint equalizer.scss"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Wolox/equalizer/issues"
   },
-  "homepage": "https://github.com/Wolox/equalizer#readme"
+  "homepage": "https://github.com/Wolox/equalizer#readme",
+  "devDependencies": {
+    "sass-lint": "^1.12.1"
+  }
 }
