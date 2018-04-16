@@ -25,7 +25,12 @@ yarn add wolox-equalizer
 1- Include the equalizer.scss before the index file of your CSS/SCSS.
 
 ```js
-import 'wolox-equalizer/equalizer.scss';
+{
+  loader: 'sass-loader',
+  options: {
+    includePaths: ['node_modules']
+  }
+}
 ```
 
 

@@ -16,7 +16,6 @@ rules:
   function-name-format:
     - 2
     - allow-leading-underscore: false
-      convention: camelcase
   hex-length: 2
   hex-notation:
     - 2
