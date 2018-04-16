@@ -5,4 +5,3 @@
 ## Screenshots
 
 [Change!] Show the screenshots of the views you modified.
-
