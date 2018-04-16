@@ -24,15 +24,28 @@ yarn add wolox-equalizer
 
 1- Include the equalizer.scss before the index file of your CSS/SCSS.
 
+If you want to import the 'equalizer' in this way:
+
+```js
+@import 'equalizer';
+```
+
+You have to add the following lines to the webpack configuration file: 
+
 ```js
 {
   loader: 'sass-loader',
   options: {
-    includePaths: ['node_modules']
+    includePaths: ['node_modules/wolox-equalizer']
   }
 }
 ```
 
+Otherwise you can import this file by doing:
+
+```js
+@import 'node_modules_path/wolox-equalizer/equalizer';
+```
 
 ## Inital color value
 
