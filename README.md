@@ -6,7 +6,7 @@
 ## Features
 
 - Reset the default styles of the browser.
-- Contains our Wolox standards for normalizing front-end projects.
+- Contains Wolox standards for normalizing front-end projects.
 
 ## Installation
 
@@ -46,10 +46,6 @@ Otherwise you can import this file by doing:
 ```js
 @import 'node_modules_path/wolox-equalizer/equalizer';
 ```
-
-## Inital color value
-
-1- All texts use **#717171** color by default.
 
 ## About
 
