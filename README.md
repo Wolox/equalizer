@@ -47,6 +47,19 @@ Otherwise you can import this file by doing:
 @import 'node_modules_path/wolox-equalizer/equalizer';
 ```
 
+## Base Styles
+
+All the text have the base style:
+```css
+color: #717171;
+font-family: sans-serif;
+font-size: 14px;
+line-height: 14px;
+```
+And input placeholders:
+```css
+color: #999
+```
 ## About
 
 This project is maintained by [Francisco Iglesias](https://github.com/frankiglesias) & [Braian Dickson](https://github.com/braiandickson) and it was written by [Wolox](http://www.wolox.com.ar).
