@@ -1,0 +1,23 @@
+{
+  "name": "wolox-equalizer",
+  "version": "0.0.1",
+  "description": "Wolox scss bootstrap equalizer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run sass-lint",
+    "sass-lint": "./node_modules/.bin/sass-lint equalizer.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolox/equalizer.git"
+  },
+  "author": "Wolox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wolox/equalizer/issues"
+  },
+  "homepage": "https://github.com/Wolox/equalizer#readme",
+  "devDependencies": {
+    "sass-lint": "^1.12.1"
+  }
+}
