@@ -22,29 +22,26 @@ yarn add wolox-equalizer
 
 ## Usage
 
-1- Include the equalizer.scss before the index file of your CSS/SCSS.
+Include the equalizer.scss before **any** file of your CSS/SCSS. You can do it by simply using the import statement on top of your root `scss` file:
 
-If you want to import the 'equalizer' in this way:
+```scss
+@import '~wolox-equalizer/equalizer';
+```
 
-```js
+Or you can also do the following trick to simply import it with it's name:
+
+```scss
 @import 'equalizer';
 ```
 
-You have to add the following lines to the webpack configuration file: 
-
 ```js
+// webpack.config.js
 {
   loader: 'sass-loader',
   options: {
     includePaths: ['node_modules/wolox-equalizer']
   }
 }
-```
-
-Otherwise you can import this file by doing:
-
-```js
-@import 'node_modules_path/wolox-equalizer/equalizer';
 ```
 
 ## Base Styles
@@ -60,6 +57,7 @@ And input placeholders:
 ```css
 color: #999
 ```
+
 ## About
 
 This project is maintained by [Francisco Iglesias](https://github.com/frankiglesias) & [Braian Dickson](https://github.com/braiandickson) and it was written by [Wolox](http://www.wolox.com.ar).

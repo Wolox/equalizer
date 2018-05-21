@@ -80,7 +80,7 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
-a:focus, a:active, a:hover {
+a:focus, a:active {
   color: #717171;
   text-decoration: none;
 }
