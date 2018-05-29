@@ -72,8 +72,7 @@ a {
   text-decoration: none;
 
   &:focus,
-  &:active,
-  &:hover {
+  &:active {
     color: $equalizer-black;
     text-decoration: none;
   }
