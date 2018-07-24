@@ -5,8 +5,11 @@ $equalizer-grey: #999;
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
-  outline: none;
   padding: 0;
+  
+  &:focus {
+    outline: none;
+  }
 }
 
 h1,
