@@ -12,13 +12,20 @@ $equalizer-grey: #999;
   }
 }
 
+%text-base {
+  color: $equalizer-black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
 span,
 label,
 input,
@@ -26,12 +33,12 @@ a,
 button,
 select,
 textarea {
-  color: $equalizer-black;
+  @extend %text-base;
   display: inline-block;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 14px;
-  margin: 0;
+}
+
+p {
+  @extend %text-base;
 }
 
 select {
