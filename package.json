@@ -1,6 +1,6 @@
 {
   "name": "wolox-equalizer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wolox scss bootstrap equalizer.",
   "main": "index.js",
   "scripts": {
