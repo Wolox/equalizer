@@ -19,8 +19,7 @@ a,
 button,
 select,
 textarea {
-  color: #717171;
-  display: inline-block;
+  color: #333;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
@@ -81,7 +80,7 @@ a {
   text-decoration: none;
 }
 a:focus, a:active {
-  color: #717171;
+  color: #333;
   text-decoration: none;
 }
 
